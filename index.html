@@ -1,10 +1,27 @@
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Domacue</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1 class="Body_Title" style="text-align: center;">Hello World!</h1>
+    <p class="Regular_Text">This is a test.</p>
+    <ol class="Regular_Text">Thing1</ol>
+    <ol class="Regular_Text">Thing1</ol>
+    <ol class="Regular_Text">Thing1</ol>
+    <div>
+        <iframe src="https://embed.neal.fun/not-a-robot/5" width="400" height="540" frameborder="0" scrolling="no"></iframe>
+    </div>
 </body>
+<script>
+    window.addEventListener("message", (event) => {
+  if (event.data.type === "captcha-completed") {
+    alert("CAPTCHA completed!");
+  }
+});
+</script>
 </html>

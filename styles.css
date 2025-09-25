@@ -1,0 +1,14 @@
+body {
+    background-color: #181818;
+}
+
+.Body_Title {
+    color:#ffffff;
+}
+
+.Regular_Text {
+    color:#ffffff;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
